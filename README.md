@@ -1,4 +1,4 @@
-# Teleport Delivery Service site
+# Medical records project site
 
     $ cd /tmp
     $ git clone https://github.com/railstutorial/sample_app_rails_4.git

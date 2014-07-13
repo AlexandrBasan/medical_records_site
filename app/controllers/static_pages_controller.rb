@@ -11,6 +11,4 @@ class StaticPagesController < ApplicationController
   def terms_of_use
   end
 
-  def how_it_works
-  end
 end

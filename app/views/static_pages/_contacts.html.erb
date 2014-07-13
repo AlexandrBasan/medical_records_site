@@ -13,16 +13,12 @@
               <%= (t 'contact.contact_text') %>
             </p>
           </div>
-          <div class="col-md-7">
+          <div class="col-md-6">
             <p style="text-align: center">
-            <div class="center jumbotron">
-              <h1 style="color: #000000"><%= (t 'all.do_you_want_to_work_with_us') %></h1>
-              <%= link_to (I18n.t 'all.sign_up_now'), 'https://saas.teleport-ds.com/signup', :target => "_blank",
-                          class: "btn btn-large btn-primary" %>
-            </div>
+            <div id="map-canvas" style="position: relative; z-index: 2;"></div>
             </p>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-6">
             <div class="span5 offset1">
               <h5><%= (t 'contact.company_name') %></h5>
 
@@ -67,6 +63,8 @@
                 </div>
               </div>
               <br>
+              <br>
+              <br>
               <h5><%= (t 'contact.get_social') %></h5>
 
               <div class="social-icons sicon-white bordered">
@@ -86,4 +84,3 @@
     </div>
   </div>
 </div>
-<div id="map-canvas" style="position: relative; z-index: 2;"></div>
