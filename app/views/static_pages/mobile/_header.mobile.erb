@@ -1,0 +1,43 @@
+<header class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <%= link_to image_tag("teleport_logo_eng_0.png", alt: "Teleport SaaS"), root_path + "#top", :class => "brand" %>
+      <nav>
+        <ul class="nav nav-pills pull-right">
+
+              <li><%= link_to (I18n.t 'menu.about_us'), root_path + "#about_us" %></li>
+
+          <li id="fat-menu" class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <%= (I18n.t 'menu.whom_is_our_service_for') %> <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><%= link_to (I18n.t 'menu.for_stores'), root_path + "#delivery_for_stores" %></li>
+              <li class="divider"></li>
+              <li><%= link_to (I18n.t 'menu.for_delivery_companies'), root_path + "#for_delivery_companies" %></li>
+              <!--<li class="divider"></li>
+              <li><%= link_to (I18n.t 'menu.delivery_for_all'), root_path + "#delivery_for_all" %></li>-->
+            </ul>
+          </li>
+          <li><%= link_to (I18n.t 'menu.contact_us'), root_path + "#contact_us" %></li>
+          <!--<li><%= link_to "Home", root_path %></li>-->
+          <!--<li><%= link_to "Help", root_path %></li>-->
+          <li id="fat-menu" class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <% if I18n.locale == :ru %>
+                  <%= image_tag("ru.png", alt: "RU")+ (" RU") %>
+              <%else %>
+                  <%= image_tag("eng.png", alt: "EN")+ (" EN") %>
+              <% end %>
+              <!--<%= (I18n.t 'menu.language') %> <b class="caret"></b>-->
+            </a>
+            <ul class="dropdown-menu">
+              <li><%= link_to image_tag("eng.png", alt: "EN")+ (" EN"), params.merge({:locale => :en}) %></li>
+              <li><%= link_to image_tag("ru.png", alt: "RU")+ (" RU"), params.merge({:locale => :ru}) %></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,89 @@
+<div class="black-bg white page-contact" id="page-contact">
+  <div class="container">
+    <div style="position: relative; z-index: 2;" id="contact_us" name="contact_us">
+      <header>
+        </br>
+        <h4 class="line-divider" style="text-align: center"><%= (t 'contact.contact') %></h4>
+
+        <h1><%= (t 'contact.say_hello') %></h1>
+
+        <div class="row">
+          <div class="col-md-12">
+            <p style="text-align: center">
+              <%= (t 'contact.contact_text') %>
+            </p>
+          </div>
+          <div class="col-md-7">
+            <p style="text-align: center">
+            <div class="center jumbotron">
+              <h1 style="color: #000000"><%= (t 'all.do_you_want_to_work_with_us') %></h1>
+              <%= link_to (I18n.t 'all.sign_up_now'), 'https://saas.teleport-ds.com/signup', :target => "_blank",
+                          class: "btn btn-large btn-primary" %>
+            </div>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <div class="span5 offset1">
+              <h5><%= (t 'contact.company_name') %></h5>
+
+              <div class="media">
+                <div class="social-icons sicon-white pull-left">
+                  <img alt="" src="/assets/phone-white.png" style="width: 23px; height: 23px; margin-top: -4px;">
+                </div>
+                <div class="media-body smallFontBy08">
+                  <%= (t 'contact.phone') %>
+                </div>
+              </div>
+              <div class="media">
+                <div class="social-icons sicon-white pull-left">
+                  <img alt="" src="/assets/map-marker2-white@2x.png" style="width: 30px; height: 30px; margin-top: -4px;">
+                </div>
+                <div class="media-body smallFontBy08">
+                  <%= (t 'contact.address') %>
+                </div>
+              </div>
+              <div class="media">
+                <div class="social-icons sicon-white pull-left">
+                  <img alt="" src="/assets/mail-white@2x.png" style="width: 30px; height: 30px; margin-top: -5px;">
+                </div>
+                <div class="media-body smallFontBy08">
+                  info@teleport-ds.com
+                </div>
+              </div>
+              <div class="media">
+                <div class="social-icons sicon-white pull-left">
+                  <img alt="" src="/assets/skype-white@2x.png" style="width: 30px; height: 30px; margin-top: -5px;">
+                </div>
+                <div class="media-body smallFontBy08">
+                  teleportds
+                </div>
+              </div>
+              <div class="media">
+                <div class="social-icons sicon-white pull-left">
+                  <img alt="" src="/assets/earth-white@2x.png" style="width: 30px; height: 30px; margin-top: -3px;">
+                </div>
+                <div class="media-body smallFontBy08">
+                  www.teleport-ds.com
+                </div>
+              </div>
+              <br>
+              <h5><%= (t 'contact.get_social') %></h5>
+
+              <div class="social-icons sicon-white bordered">
+                <a href="https://www.facebook.com/teleportds" target="_blank" class="sicon-facebook"><img alt="" src="/assets/facebook-white@2x.png" style="width: 32px; height: 32px;"></a>
+                <a href="https://plus.google.com/u/0/b/109901919652597210169/+Teleport-ds/posts" target="_blank" class="sicon-youtube"><img alt="" src="/assets/google-plus-white@2x.png" style="width: 32px; height: 32px;"></a>
+                <a href="https://twitter.com/TeleportDS" target="_blank" class="sicon-twitter"><img alt="" src="/assets/twitter-white@2x.png" style="width: 32px; height: 32px;"></a>
+                <a href="http://www.linkedin.com/company/teleport" target="_blank" class="sicon-linkedin"><img alt="" src="/assets/linkedin-white@2x.png" style="width: 32px; height: 32px;"></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div id="map-image">
+      <img src="assets/map_bck.jpg" alt="Treble">
+    </div>
+  </div>
+</div>
+<div id="map-canvas" style="position: relative; z-index: 2;"></div>

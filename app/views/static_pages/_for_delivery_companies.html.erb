@@ -1,0 +1,57 @@
+<div style="background: #ffffff;" id="for_delivery_companies" name="for_delivery_companies">
+  <div class="container">
+    <div class="row">
+      </br>
+      <h4 class="line-divider" style="text-align: center"><%= (t 'menu.for_delivery_companies') %></h4>
+
+      <div class="col-md-5" style="padding-top: 2%; padding-bottom: 120px;">
+        <img alt="" src="/assets/imac_.png" style="width: 429px; height: 355px; z-index: 999;">
+
+        <div id="orders_chart" style="width: 398px; height: 225px; margin-top: -340px;
+                margin-left: 15px;"></div>
+        <table class="pretty">
+          <!-- Orders table code here -->
+        </table>
+        <script type="text/javascript" charset="utf-8">
+            $(function () {
+                new Highcharts.Chart({
+                    chart: { renderTo: 'orders_chart' },
+                    title: { text: '<%= (I18n.t 'charts.orders_by_date') %>' },
+                    xAxis: { type: 'datetime' },
+                    yAxis: {
+                        title: { text: '<%= (I18n.t 'charts.orders') %>' }
+                    },
+                    series: [{
+                        name: "<%= (I18n.t 'charts.orders') %>",
+                        pointInterval: <%= 1.day * 1000 %>,
+                        pointStart: <%= 3.weeks.ago.at_midnight.to_i * 1000 %>,
+                        data: [2, 10, 50, 100, 200, 500]
+                    },
+                        {
+                            name: "<%= (I18n.t 'charts.profit') %>",
+                            pointInterval: <%= 1.day * 1000 %>,
+                            pointStart: <%= 3.weeks.ago.at_midnight.to_i * 1000 %>,
+                            data: [60, 300, 600, 1000, 2000, 5000]
+                        }
+                    ]
+                });
+            });
+        </script>
+      </div>
+      <div class="col-md-7 text-justify">
+        <div class="hidBlock"><%= (t 'content.for_delivery_companies_1').html_safe %></div>
+        <h4 style="text-align: center;"><%= (t 'content.for_delivery_companies_2') %></h4>
+        <ul style="text-align: justify;">
+          <%= (t 'content.for_delivery_companies_3').html_safe %>
+        </ul>
+        <h4 style="text-align: center;"><%= (t 'content.for_delivery_companies_4') %></h4>
+        <%= (t 'content.for_delivery_companies_5') %>
+        <p></p>
+        <p align="center">
+          <a class="btn btn-lg btn-warning signup" href="https://saas.teleport-ds.com/signup" role="button" target="_blank"><%= (t 'main.start_receiving_inquiries_today') %></a>
+        </p>
+      </div>
+    </div>
+  </div>
+  </br>
+</div>
