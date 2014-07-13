@@ -25,9 +25,8 @@ ru:
   mobile_site: "Мобильная версия сайта"
   picture: "Картинка"
   main:
-    start_teleporting_today: "Начните телепортировать посылки уже сегодня"
-    small_about: "Teleport открывает новые возможности для логистики, электронной коммерции и
-                            управления поставками. Мы – агрегатор служб доставки, который работает во всем мире."
+    start_text: "Начните сохранять Ваши медецинские записи уже сегодня"
+    small_about: "Medicine doctor hand working with modern computer interface as medical concept"
     #get_started: "Зарегистрируйтесь!"
     get_started: "Начните экономить на доставке уже сейчас!"
     its_free: "Это бесплатно!"

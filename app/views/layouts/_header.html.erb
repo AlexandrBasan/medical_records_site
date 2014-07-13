@@ -1,7 +1,7 @@
 <header class="navbar navbar-default navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
-      <%= link_to image_tag("teleport_logo_eng_0.png", alt: "Teleport SaaS"), root_path + "#top", :class => "brand" %>
+      <%= link_to image_tag("medical_medicine_health_simple-51.png", alt: "MedicalRecords Online"), root_path + "#top", :class => "brand" %>
       <nav>
         <ul class="nav nav-pills pull-right">
           <li id="fat-menu" class="dropdown">
@@ -13,7 +13,7 @@
               <li class="divider"></li>
             </ul>
           </li>
-          <li><%= link_to (I18n.t 'menu.contact_us'), root_path + "#contact_us" %></li>
+          <li><%= link_to (I18n.t 'menu.about_us'), root_path + "#about_us" %></li>
           <li id="fat-menu" class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
              <% if I18n.locale == :ru %>
