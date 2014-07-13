@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.1.0'
-#ruby-gemset=teleport_ds_com
+#ruby-gemset=medical_records
 
 gem 'rails', '4.0.3'
 gem 'bootstrap-sass'
