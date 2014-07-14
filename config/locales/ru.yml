@@ -111,6 +111,7 @@ ru:
     orders: "Заказы"
     profit: "Прибыль"
   content:
+    tags: ""
     privacy_and_security: ""
     terms_of_use: ""
 
