@@ -31,7 +31,6 @@ ru:
     #get_started: "Зарегистрируйтесь!"
     get_started: "Зерегистрируйтесь!"
     its_free: "Это бесплатно!"
-    start_receiving_inquiries_today: "Начните получать заявки уже сегодня!"
   menu:
     about_us: "О нас"
     how_it_works: "Как это работает?"
@@ -61,7 +60,7 @@ ru:
     all: "Все"
     news: "Новости"
     specials: "Акции"
-    teleport_saas_system: "Teleport SaaS System"
+    teleport_saas_system: "SaaS System"
     companies_news: "Новости компаний"
     latest_news: "Последние новости"
     new_blog: "Новая новость"

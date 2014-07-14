@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       </br>
-      <h4 class="line-divider" style="text-align: center"><%= (t 'menu.for_people') %></h4>
+      <h4 style="text-align: center; padding-bottom:10px; border-bottom: solid 1px lightgray;"><%= (t 'menu.for_people') %></h4>
 
       <div class="col-md-6 text-justify">
         <%= (t 'content.for_stores_1').html_safe %>
@@ -25,43 +25,21 @@
             <!-- Carousel items -->
             <div class="carousel-inner">
               <div class="active item">
-                <% if I18n.locale == :ru %>
-                    <%= image_tag("new_inquiry_ru.png") %>
-                    <% else %>
                     <%= image_tag("new_inquiry_en.png") %>
-                    <% end %>
                 <div class="carousel-caption">
                   <p><%= (t 'content.for_stores_slider_1') %></p>
                 </div>
               </div>
               <div class="item">
-                <% if I18n.locale == :ru %>
-                    <%= image_tag("delivery_for_store_ru.png") %>
-                <% else %>
-                    <%= image_tag("delivery_for_store_en.png") %>
-                <% end %>
-                <div class="carousel-caption">
-                  <p><%= (t 'content.for_stores_slider_2') %></p>
-                </div>
+                <%= image_tag("new_inquiry_en.png") %>
               </div>
               <div class="item">
-                <% if I18n.locale == :ru %>
-                    <%= image_tag("show_inquiry_ru.png") %>
-                <% else %>
-                    <%= image_tag("show_inquiry_en.png") %>
-                <% end %>
-
-                <div class="carousel-caption">
-                  <p><%= (t 'content.for_stores_slider_3') %></p>
-                </div>
+                <%= image_tag("new_inquiry_en.png") %>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-
-
     </div>
   </div>
   </br>
