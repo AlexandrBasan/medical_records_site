@@ -1,0 +1,95 @@
+<div id="for_people" name="for_people">
+  <div class="container">
+    <div class="row">
+      </br>
+      <h4 class="line-divider" style="text-align: center"><%= (t 'menu.for_stores') %></h4>
+
+      <div class="col-md-5 text-justify">
+        <%= (t 'content.for_stores_1').html_safe %>
+        <div class="hidBlock"><%= (t 'content.for_stores_1_2').html_safe %></div>
+        <div class="hidBlock"><%= (t 'content.for_stores_1_1').html_safe %></div>
+       <h4 style="text-align: center;"><%= (t 'content.for_stores_2') %></h4>
+        <ul style="text-align: justify;">
+          <%= (t 'content.for_stores_3').html_safe %>
+        </ul>
+        <p align="center">
+          <a class="btn btn-lg btn-success signup" href="https://saas.teleport-ds.com/signup" role="button" target="_blank"><%= (t 'main.get_started') %> <%= (t 'main.its_free') %></a>
+        </p>
+      </div>
+      <div class="col-md-7" style="padding-top: 2%; padding-bottom: 100px;">
+        <img alt="" src="/assets/imac_.png" style="width: 600px; height: 497px; z-index: 999;">
+        <div style="width: 552px; height: 227px; margin-top: -474px;
+                margin-left: 24px;">
+          <div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+              <div class="active item">
+                <% if I18n.locale == :ru %>
+                    <%= image_tag("new_inquiry_ru.png") %>
+                    <% else %>
+                    <%= image_tag("new_inquiry_en.png") %>
+                    <% end %>
+                <div class="carousel-caption">
+                  <p><%= (t 'content.for_stores_slider_1') %></p>
+                </div>
+              </div>
+              <div class="item">
+                <% if I18n.locale == :ru %>
+                    <%= image_tag("delivery_for_store_ru.png") %>
+                <% else %>
+                    <%= image_tag("delivery_for_store_en.png") %>
+                <% end %>
+                <div class="carousel-caption">
+                  <p><%= (t 'content.for_stores_slider_2') %></p>
+                </div>
+              </div>
+              <div class="item">
+                <% if I18n.locale == :ru %>
+                    <%= image_tag("show_inquiry_ru.png") %>
+                <% else %>
+                    <%= image_tag("show_inquiry_en.png") %>
+                <% end %>
+
+                <div class="carousel-caption">
+                  <p><%= (t 'content.for_stores_slider_3') %></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+    <!--<div class="well well-sm">
+      <h3 class="panel-title" align="center"><%= t ('content.modules_for_stores') %></h3>
+      <p></p>
+      <table bgcolor='' cellpadding='1' cellspacing='1' border='0' bordercolor='' align='center' width='100%'>
+        <tr height='' bgcolor='' valign=top align=center>
+          <td><img src="/assets/cms_api/flat-black-ring-opencart-logo.png"></td>
+          <td><img src="/assets/cms_api/flat-black-ring-oscommerce-logo.png"></td>
+          <td><img src="/assets/cms_api/flat-black-ring-ubercart-logo.png"></td>
+          <td><img src="/assets/cms_api/flat-black-ring-magento-logo.png"></td>
+          <td><img src="/assets/cms_api/flat-black-ring-virtuemart-logo.png"></td>
+          <td> </td>
+        </tr>
+        <tr height='' bgcolor='' valign=top align=center>
+          <td>OpenCart</td>
+          <td>Drupal osCommerce</td>
+          <td>Drupal Ubercart</td>
+          <td>Magento</td>
+          <td>Joomla Virtuemart</td>
+          <td> </td>
+        </tr>
+      </table>
+    </div>-->
+  </div>
+  </br>
+</div>
