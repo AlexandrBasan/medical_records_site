@@ -3,39 +3,8 @@
     <div class="row">
       </br>
       <h4 style="text-align: center; padding-bottom:10px; border-bottom: solid 1px lightgray;"><%= (t 'menu.for_doctors') %></h4>
-
-      <div class="col-md-6" style="padding-top: 2%; padding-bottom: 100px;">
-        <img alt="" src="/assets/imac_.png" style="width: 429px; height: 355px; z-index: 999;">
-        <div style="width: 398px; height: 225px; margin-top: -340px;
-                margin-left: 15px;">
-          <div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
-            <!-- Carousel indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <!-- Carousel items -->
-            <div class="carousel-inner">
-              <div class="active item">
-                <%= image_tag("new_inquiry_en.png") %>
-                <div class="carousel-caption">
-                  <p><%= (t 'content.for_stores_slider_1') %></p>
-                </div>
-              </div>
-              <div class="item">
-                <%= image_tag("new_inquiry_en.png") %>
-              </div>
-              <div class="item">
-                <%= image_tag("new_inquiry_en.png") %>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 text-justify">
+      <div class="col-md-12 text-justify">
         <%= (t 'content.for_stores_1').html_safe %>
-        <div class="hidBlock"><%= (t 'content.for_stores_1_2').html_safe %></div>
         <p align="center">
           <a class="btn btn-lg btn-success signup" href="https://saas.teleport-ds.com/signup" role="button" target="_blank"><%= (t 'main.get_started') %> <%= (t 'main.its_free') %></a>
         </p>
