@@ -9,7 +9,7 @@ class Blog < ActiveRecord::Base
                     :s3_credentials => Proc.new{|a| a.instance.s3_credentials }
   # Amazon s3
   def s3_credentials
-    {:bucket => "teleport_site", :access_key_id => "AKIAIEZ3VHOH3FJJXJPQ", :secret_access_key => "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"}
+    {:bucket => "", :access_key_id => "", :secret_access_key => ""}
   end
 
   validates_attachment_content_type :picture, :content_type => /\Aimage\/.*\Z/
