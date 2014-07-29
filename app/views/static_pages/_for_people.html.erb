@@ -5,12 +5,55 @@
       <h4 style="text-align: center; padding-bottom:10px; border-bottom: solid 1px lightgray;"><%= (t 'menu.for_people') %></h4>
 
       <div class="col-md-6 text-justify">
+        <div class="skills">
+          <ul class="col-md-6 col-sm-12 col-xs-12 wow fadeInLeft animated" style="visibility: visible;">
+            <li class="progress" style="opacity: 1; left: 0px;">
+              <div class="progress-bar" data-width="85" style="width: 85%;">
+                Wordpress 85%
+              </div>
+            </li>
+            <li class="progress" style="opacity: 1; left: 0px;">
+              <div class="progress-bar" data-width="65" style="width: 65%;">
+                Graphic Design 65%
+              </div>
+            </li>
+            <li class="progress" style="opacity: 1; left: 0px;">
+              <div class="progress-bar" data-width="90" style="width: 90%;">
+                HTML/CSS Design 90%
+              </div>
+            </li>
+            <li class="progress" style="opacity: 1; left: 0px;">
+              <div class="progress-bar" data-width="60" style="width: 60%;">
+                SEO 60%
+              </div>
+            </li>
+          </ul>
+          <ul class="col-md-6 col-sm-12 col-xs-12 wow fadeInRight animated" style="visibility: visible;">
+            <li class="progress" style="opacity: 1; left: 0px;">
+              <div class="progress-bar" data-width="75" style="width: 75%;">
+                Agencying 75%
+              </div>
+            </li>
+            <li class="progress" style="opacity: 1; left: 0px;">
+              <div class="progress-bar" data-width="95" style="width: 95%;">
+                App Development 95%
+              </div>
+            </li>
+            <li class="progress" style="opacity: 1; left: 0px;">
+              <div class="progress-bar" data-width="70" style="width: 70%;">
+                IT Consultency 70%
+              </div>
+            </li>
+            <li class="progress" style="opacity: 1; left: 0px;">
+              <div class="progress-bar" data-width="90" style="width: 90%;">
+                Theme Development 90%
+              </div>
+            </li>
+          </ul>
+        </div>
         <%= (t 'content.for_stores_1').html_safe %>
-        <p align="center">
-          <a class="btn btn-lg btn-success signup" href="https://saas.teleport-ds.com/signup" role="button" target="_blank"><%= (t 'main.get_started') %> <%= (t 'main.its_free') %></a>
-        </p>
       </div>
-      <div class="col-md-6" style="padding-top: 2%; padding-bottom: 100px;">
+      <div class="col-md-6">
         <img alt="" src="/assets/imac_.png" style="width: 429px; height: 355px; z-index: 999;">
         <div style="width: 398px; height: 225px; margin-top: -340px;
                 margin-left: 15px;">
@@ -24,20 +67,23 @@
             <!-- Carousel items -->
             <div class="carousel-inner">
               <div class="active item">
-                    <%= image_tag("new_inquiry_en.png") %>
+                    <%= image_tag("") %>
                 <div class="carousel-caption">
                   <p><%= (t 'content.for_stores_slider_1') %></p>
                 </div>
               </div>
               <div class="item">
-                <%= image_tag("new_inquiry_en.png") %>
+                <%= image_tag("") %>
               </div>
               <div class="item">
-                <%= image_tag("new_inquiry_en.png") %>
+                <%= image_tag("") %>
               </div>
             </div>
           </div>
         </div>
+        <p align="center" style="padding-top: 120px; margin-left: -120px">
+          <a class="btn btn-lg btn-success signup" href="https://saas.teleport-ds.com/signup" role="button" target="_blank"><%= (t 'main.get_started') %> <%= (t 'main.its_free') %></a>
+        </p>
       </div>
     </div>
   </div>
