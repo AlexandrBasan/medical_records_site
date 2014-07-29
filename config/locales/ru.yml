@@ -114,4 +114,20 @@ ru:
     tags: ""
     privacy_and_security: ""
     terms_of_use: ""
+    for_people_1: "My Medical is a comprehensive record-keeping app for your personal medical information. It's the perfect replacement for unreliable paper records or various electronic systems that hold bits and pieces of your medical history. With My Medical, any and all information that is important to you is kept together in one place."
+    for_people_2: "My Medical provides a range of common test result templates for you to track test results. To name just a few: blood pressure; cholesterol; metabolic panels; blood sugar; CAT scan; height and weight. If that isn't enough, construct and customize your own test results to keep track of exactly what you need."
+    for_people_3: "Chart test results with sophistication and discover trends over time. With the charting feature you can view multiple graphs simultaneously and even see moving averages to uncover long term changes."
+    and_many_other_things: "And many other things..."
+    for_people_4: "<ul>
+        <li>Store complete medical histories for as many people as you wish.</li>
+        <li>Keep critical and hard-to-remember information on hand all the time.</li>
+        <li>Track and chart test results and vital signs.</li>
+        <li>Send your records to the doctor with a click of a button.</li></ul>"
+    for_doctors_1: "Dear doctor, your patients waiting for you. Month join us over 100,000 new users, of which about 20,000 activate your account. This means that they are all somehow interested in contact with doctors! All these people in Vitagrammu uploaded results of their analyzes. This helps them establish a professional touch with you. Sign up MedicalRecords! And then we can advise patients with certain indications to contact you. You will be able to expand their practice and gain new knowledge and experience!"
+    for_doctors_2: "Our survey also revealed that 87% of doctors think online access to records will increase expectations for speedier help, which is supported by over half (54%) of the public expecting a response to an email for „routine support‟ within a day, compared to only 14% of doctors. This stark difference suggests that what the public expects is at odds with what the doctor think is realistic."
+    for_doctors_3: "<ul>
+                            <li>You receive medical records of your patients online.</li>
+                            <li>Keep critical and hard-to-remember information on hand all the time.</li>
+                            <li>Not need to save and search paper medical information.</li>
+                            <li>Receive new patients.</li></ul>"
 
