@@ -101,6 +101,10 @@ p {
   height: 52px;
 }
 
+.navbar-default {
+  background-color: #ffffff;
+}
+
 .navbar .nav.pull-right {
   float: right;
   margin-right: 0;
@@ -367,4 +371,36 @@ aside {
 .carousel .carousel-inner .bg1 {
   background-image:url(health.jpg);
   background-position: center top;
+}
+
+.btn-1 {
+  border: 3px solid #fff;
+  color: #fff;
+  outline: none;
+}
+
+.btn {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 20px 70px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 101;
+}
+
+a.btn.btn-1.btn-lg.btn-success.signup {
+  border: 3px solid #fff;
+  color: #fff;
+  outline: none;
 }

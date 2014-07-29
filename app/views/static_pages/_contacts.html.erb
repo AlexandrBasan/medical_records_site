@@ -6,15 +6,12 @@
         <h4 style="text-align: center; padding-bottom:10px; border-bottom: solid 1px lightgray;"><%= (t 'menu.about_us') %></h4>
 
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-6">
             <p style="text-align: center">
               <%= (t 'contact.contact_text') %>
             </p>
           </div>
-          <div class="col-md-6">
-            <%= link_to image_tag("51_logo.png", alt: "MedicalRecords Online"), root_path + "#top", :class => "brand" %>
-          </div>
-          <div class="col-md-6">
+          <div class="col-md-6"  style="border-left: 1px solid lightgray">
             <div class="span5 offset1">
               <h5><%= (t 'contact.company_name') %></h5>
 
