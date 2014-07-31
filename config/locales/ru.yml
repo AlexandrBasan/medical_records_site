@@ -26,8 +26,8 @@ ru:
   picture: "Картинка"
   main:
     start_text: "Начните сохранять Ваши медецинские записи уже сегодня"
-    small_about: "Medicine doctor hand working with modern computer interface as medical concept"
-    start_working: "Мы начинаем работать 28 сентября 2014"
+    small_about: "Мы онлайн сервис который позволяет людям хранить их медицинские записи online и легко обмениваться ими с докторами."
+    start_working: "Мы начинаем работать 28 сентября 2014 но Вы можете зарегестрироваться уже сейчас"
     #get_started: "Зарегистрируйтесь!"
     get_started: "Зерегистрируйтесь!"
     its_free: "Это бесплатно!"
@@ -110,25 +110,84 @@ ru:
     orders_by_date: "Заказы по дням"
     orders: "Заказы"
     profit: "Прибыль"
+    visits: "Вернувшиеся пациенты"
   content:
-    tags: ""
-    privacy_and_security: ""
+    tags: "medical record, health record, medical chart, medical record online, health record online, medical chart online, cloud medical record, cloud health record, cloud medical chart, save medical record, save health record, save medical chart, medical record software, health record software, medical chart software"
+    privacy_and_security: "    <strong>Правила сервиса по хранению персональных данных пользователей.</strong></br>
+                                   <span>Ознакомьтесь, пожалуйста, с Правилами хранения персональных данных зарегистрированных пользователей (далее Правила). Правила установлены ООО “ПроаЛаб” (www.teleport-ds.com) и определяют порядок обращения ООО “ПроаЛаб” с персональными данными пользователей, зарегистрированных на сайте </span>www.teleport-ds.com.</br>
+                                   <strong>1. Основные положения.</strong></br>
+                                   Соглашаясь с настоящими Правилами, Пользователь дает разрешение ООО “ПроаЛаб” на сбор, хранение, использование и
+                                   разглашение своих персональных данных в соответствии с настоящими Правилами, Законом Украины «О защите прав
+                                   потребителей» и Законом Украины «О защите информации в информационно-телекоммуникационных системах». Правила
+                                   действительны на территории Украины, с момента регистрации пользователя или его авторизации на сайте
+                                   www.teleport-ds.com.</br>
+
+                                   <strong>2. Сбор и использование персональных данных о клиенте.</strong></br>
+                                   ООО “ПроаЛаб” может собирать, хранить и использовать следующие персональные данные:</br>
+                                   <ul>
+                                     <li>имя (фамилия, имя, отчество);</li>
+                                     <li>адрес электронной почты (e-mail);</li>
+                                     <li>номер мобильного телефона;</li>
+                                     <li>адрес, почтовый индекс;</li>
+                                     <li>город;</li>
+                                     <li>другие данные касающиеся работы пользователя на сайте www.teleport-ds.com</li>
+                                   </ul>
+                                   Пользователь соглашается с тем, что ООО “ПроаЛаб” может использовать персональные данные пользователя для:</br>
+                                   <ul>
+                                     <li>предоставления услуг и поддержки по запросу пользователя;</li>
+                                     <li>улучшения собственных услуг, содержания сайта и рекламы;</li>
+                                     <li>уведомления пользователя об услугах, новостях и рекламных предложениях ООО “ПроаЛаб” и партнеров ООО “ПроаЛаб” посредством SMS, электронных сообщений, MMS, почты и т.д.
+                                     </li>
+                                   </ul>
+                                   <strong>3. Разглашение персональных данных</strong></br>
+                                   ООО “ПроаЛаб” имеет право предоставлять третьим лицам персональные данные пользователя в следующих ограниченных
+                                   случаях:</br>
+                                   <ul>
+                                     <li>ООО “ПроаЛаб” получил дополнительное согласие пользователя;</li>
+                                     <li>ООО “ПроаЛаб” предоставляет такую информацию своим партнерам, дочерним компаниям, агентствам и субподрядчикам с
+                                       целью, для которой эта информация была собрана. ООО “ПроаЛаб” потребует от данных лиц согласия на использование
+                                       информации в соответствии с инструкциями ООО “ПроаЛаб” и настоящими Правилами, а так же иными надлежащими
+                                       средствами сохранения конфиденциальности и безопасности.
+                                     </li>
+                                     <li>ООО “ПроаЛаб” предоставляет такую информацию правоохранительным и другим государственным органам в ответ на их
+                                       официальный запрос, касающийся уголовного расследования или предполагаемой противоправной деятельности. В таком
+                                       случае, ООО “ПроаЛаб” разгласит информацию, имеющую значение для расследования, а именно: имя, адрес доставки,
+                                       почтовый индекс, номер мобильного телефона, электронный адрес, дату рождения, данные о покупках и резервациях, город
+                                     </li>
+                                     <li>ООО “ПроаЛаб” может предоставлять третьим лицам общую информацию (статистические данные, обобщенную
+                                       информацию),
+                                       которая не содержит персональную информацию и которая не идентифицирует пользователя индивидуально.
+                                     </li>
+                                   </ul>
+                                   Персональные данные пользователя хранятся на сервере ООО “ПроаЛаб”. ООО “ПроаЛаб” обязуется предпринимать надлежащие
+                                   меры безопасности для защиты от неправомерного доступа или неправомерного изменения, разглашения или уничтожения
+                                   персональных данных пользователя.</br>
+                                   ООО “ПроаЛаб” несет единоличную и полную юридическую ответственность за защиту персональных данных клиента и за сбор,
+                                   хранение, и использование персональных данных пользователя.</br>
+                                   <strong>4. Удаление персональных данных и отказ от рассылки</strong></br>
+                                   При изменении персональных данных пользователя, упомянутых в пункте 2 (например, мобильный телефон, электронный адрес
+                                   или адрес доставки), а также, если пользователь не хочет больше пользоваться возможностями сайта
+                                   www.teleport-ds.com, мы предоставляем возможность изменения или удаления/деактивации данных.</br>
+                                   ООО “ПроаЛаб” также предоставляет зарегистрированным пользователям право отказаться от получения любых рекламных
+                                   материалов относительно услуг, которые предоставляются через сайт www.teleport-ds.com. Это можно сделать, выслав
+                                   письмо с соответвующей информацией на наш e-mail. При этом, ООО “ПроаЛаб”оставляет за собой право использовать
+                                   персональные данные пользователя с целью, для которой эта информация была собрана, на протяжении одного месяца после
+                                   деактивации информации для завершения оказания услуг (ответы на запросы клиентов).</br>
+                                   Контактные данные: info@teleport-ds.com</br>"
     terms_of_use: ""
-    for_people_1: "My Medical is a comprehensive record-keeping app for your personal medical information. It's the perfect replacement for unreliable paper records or various electronic systems that hold bits and pieces of your medical history. With My Medical, any and all information that is important to you is kept together in one place."
-    for_people_2: "My Medical provides a range of common test result templates for you to track test results. To name just a few: blood pressure; cholesterol; metabolic panels; blood sugar; CAT scan; height and weight. If that isn't enough, construct and customize your own test results to keep track of exactly what you need."
-    for_people_3: "Chart test results with sophistication and discover trends over time. With the charting feature you can view multiple graphs simultaneously and even see moving averages to uncover long term changes."
-    and_many_other_things: "And many other things..."
-    for_people_4: "<ul>
-        <li>Store complete medical histories for as many people as you wish.</li>
-        <li>Keep critical and hard-to-remember information on hand all the time.</li>
-        <li>Track and chart test results and vital signs.</li>
-        <li>Send your records to the doctor with a click of a button.</li></ul>"
-    for_doctors_1: "Dear doctor, your patients waiting for you. Month join us over 100,000 new users, of which about 20,000 activate your account. This means that they are all somehow interested in contact with doctors! All these people in Vitagrammu uploaded results of their analyzes. This helps them establish a professional touch with you. Sign up MedicalRecords! And then we can advise patients with certain indications to contact you. You will be able to expand their practice and gain new knowledge and experience!"
-    for_doctors_2: "Our survey also revealed that 87% of doctors think online access to records will increase expectations for speedier help, which is supported by over half (54%) of the public expecting a response to an email for „routine support‟ within a day, compared to only 14% of doctors. This stark difference suggests that what the public expects is at odds with what the doctor think is realistic."
-    for_doctors_3: "<ul>
-                            <li>You receive medical records of your patients online.</li>
-                            <li>Keep critical and hard-to-remember information on hand all the time.</li>
-                            <li>Not need to save and search paper medical information.</li>
-                            <li>Receive new patients.</li></ul>"
-    what_you_can_do: "What you can do after registration?"
+    for_people_1: "Мой медицинский является всеобъемлющим приложение учет для личного медицинской информации. Это идеальная замена для ненадежных записей бумаги или различных электронных систем, которые держат кусочки вашей медицинской истории. С Мой медицинский, любую информацию, которая важна для вас хранится в одном месте."
+    for_people_2: "Мой медицинский предоставляет широкий спектр общих шаблонов с результатами испытания для вас, чтобы отслеживать результаты испытаний. Чтобы назвать только некоторые из них: кровяное давление; холестерин; метаболические панели; уровень сахара в крови; Компьютерной томографии; рост и вес. Если этого не достаточно, построить и настроить собственные результаты тестирования, чтобы отслеживать именно то, что вам нужно."
+    for_people_3: "Результаты испытаний График с изысканностью и обнаружить тенденции с течением времени. С помощью функции построения графиков можно просматривать несколько графиков одновременно и даже увидеть скользящих средних, чтобы раскрыть долгосрочные изменения."
+    and_many_other_things: "И много других полезных функций..."
+    for_people_4: "<ul><li>Храните полные истории болезни для многих людей, как вы хотите.</li>
+            <li>Держите критическим и трудно вспомнить информацию под рукой все время.</li>
+            <li>Легкая результаты испытаний диаграмма и жизненно важных.</li>
+            <li>Отправить свои записи к врачу с одним нажатием кнопки.</li></ul>"
+    for_doctors_1: "Уважаемый доктор, ваши пациенты ждут вас. Присоединиться месяц нам более 100000 новых пользователей, из которых около 20 000 активируете свой аккаунт. Это означает, что все они так или иначе заинтересованы в контакте с врачами! Все эти люди в Vitagrammu загружены результаты своих анализов. Это помогает им создать профессиональный подход с вами. Зарегистрироваться MedicalRecords! И тогда мы сможем советуют пациентам с определенными показаниями связаться с Вами. Вы сможете расширить свою практику и получить новые знания и опыт!"
+    for_doctors_2: "Наше исследование также показало, что 87% врачей считают, что онлайн-доступ к записям увеличит надежды на скорейшей помощи, который поддерживается более половины (54%) от общественности ожидая ответа на сообщение электронной почты для рутинной поддержки в течение дня, по сравнению только 14% врачей. Это резкое различие предполагает, что то, что общественность ожидает не в ладах с тем, что врач думаю вполне реально."
+    for_doctors_3: "<ul><li>Вы получаете медицинские записи ваших пациентов в Интернете.</li>
+                                    <li>Держите критическим и трудно вспомнить информацию под рукой все время.</li>
+                                    <li>Не нужно хранить и искать бумаги медицинскую информацию.</li>
+                                    <li>Получайте новых пациентов.</li></ul>"
+    what_you_can_do: "Что Вы сможете делать после регистрации?"
 

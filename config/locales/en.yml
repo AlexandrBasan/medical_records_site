@@ -25,9 +25,9 @@ en:
   mobile_site: "Mobile site"
   picture: "Picture"
   main:
-    start_text: "Start keeping medical records today"
-    small_about: "Medicine doctor hand working with modern computer interface as medical concept"
-    start_working: "We start to work 28 september 2014"
+    start_text: "Start keeping your medical and health records online"
+    small_about: "We are an online service that allows people to store their medical and health records online and easily share them with doctors."
+    start_working: "We start to work 28 september 2014 but you can register now"
     get_started: "Get started"
     its_free: "- it's free!"
   menu:
@@ -59,7 +59,7 @@ en:
     all: "All"
     news: "News"
     specials: "Specials"
-    teleport_saas_system: "Teleport SaaS System"
+    teleport_saas_system: "SaaS System"
     companies_news: "Companies news"
     latest_news: "Latest news"
     new_blog: "New blog"
@@ -112,7 +112,11 @@ en:
     visits: "Returned patients"
   content:
     tags: "medical record, health record, medical chart, medical record online, health record online, medical chart online, cloud medical record, cloud health record, cloud medical chart, save medical record, save health record, save medical chart, medical record software, health record software, medical chart software"
-    privacy_and_security: ""
+    privacy_and_security: "<strong>What information do we collect?</strong> <br />We collect information from you when you register on our site, place an order, subscribe to our newsletter, respond to a survey or other information. <br />When ordering or registering on our site, as appropriate, you may be asked to enter your: name, e-mail address, mailing address or phone number. You may, however, visit our site anonymously.<br /><br /><strong>What do we use your information for?</strong> <br />Any of the information we collect from you may be used in one of the following ways: <br />To personalize your experience<span>; </span><br />(your information helps us to better respond to your individual needs)<br />To improve our website<span>; </span><br />(we continually strive to improve our website offerings based on the information and feedback we receive from you)<br />To improve customer service<span>; </span><br />(your information helps us to more effectively respond to your customer service requests and support needs)<br />To process transactions<span>; </span><br />
+                               <blockquote>Your information, whether public or private, will not be sold, exchanged, transferred, or given to any other company for any reason whatsoever, without your consent, other than for the express purpose of delivering the purchased product or service requested.</blockquote>
+                               To administer a contest, promotion, survey or other site feature<span>; </span><br />To send periodic emails<span>; </span><br />
+                               <blockquote>The email address you provide for order processing, may be used to send you information and updates pertaining to your order, in addition to receiving occasional company news, updates, related product or service information, etc.</blockquote>
+                               <strong>How do we protect your information?</strong> <br />We implement a variety of security measures to maintain the safety of your personal information when you enter, submit, or access your personal information. <br />We offer the use of a secure server. All supplied sensitive/credit information is transmitted via Secure Socket Layer (SSL) technology and then encrypted into our Payment gateway providers database only to be accessible by those authorized with special access rights to such systems, and are required to?keep the information confidential.<br />After a transaction, your private information (credit cards, social security numbers, financials, etc.) will not be stored on our servers.<br /><br /><strong>Do we use cookies?</strong> <br />Yes (Cookies are small files that a site or its service provider transfers to your computers hard drive through your Web browser (if you allow) that enables the sites or service providers systems to recognize your browser and capture and remember certain information<br /> We use cookies to understand and save your preferences for future visits, keep track of advertisements and compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future.<br />If you prefer, you can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies via your browser settings. Like most websites, if you turn your cookies off, some of our services may not function properly. However, you can still place orders by contacting customer service.<br /><br /><strong>Do we disclose any information to outside parties?</strong> <br />We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information. This does not include trusted third parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is appropriate to comply with the law, enforce our site policies, or protect ours or others rights, property, or safety. However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.<br /><br /><strong>Third party links</strong> <br /> Occasionally, at our discretion, we may include or offer third party products or services on our website. These third party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.<br /><br /><strong>Your Consent</strong> <br />By using our site, you consent to our websites privacy policy</a>.<br /><br /><strong>Changes to our Privacy Policy</strong> <br />If we decide to change our privacy policy, we will post those changes on this page. <br /><br />www.teleport-ds.com<span><br /></span>"
     terms_of_use: ""
     for_people_1: "My Medical is a comprehensive record-keeping app for your personal medical information. It's the perfect replacement for unreliable paper records or various electronic systems that hold bits and pieces of your medical history. With My Medical, any and all information that is important to you is kept together in one place."
     for_people_2: "My Medical provides a range of common test result templates for you to track test results. To name just a few: blood pressure; cholesterol; metabolic panels; blood sugar; CAT scan; height and weight. If that isn't enough, construct and customize your own test results to keep track of exactly what you need."
