@@ -135,4 +135,13 @@ en:
                                                     <li>Not need to save and search paper medical information.</li>
                                                     <li>Receive new patients.</li></ul>"
     what_you_can_do: "What you can do after registration?"
+  chart_people:
+    c_1: "Choose +85%"
+    c_2: "Convenience +65%"
+    c_3: "Search +90%"
+    c_4: "Lost -74%"
+    c_5: "Mistakes -23%"
+    c_6: "Usability +95%"
+    c_7: "Safety +70%"
+    c_8: "Easier +90%"
 
