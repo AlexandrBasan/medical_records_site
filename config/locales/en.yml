@@ -27,7 +27,7 @@ en:
   main:
     start_text: "Start keeping your medical and health records online"
     small_about: "We are an online service that allows people to store their medical and health records online and easily share them with doctors."
-    start_working: "We start to work 28 september 2014 but you can register now"
+    start_working: "We start to work 28 december 2014 but you can register now"
     get_started: "Get started"
     its_free: "- it's free!"
   menu:
@@ -51,7 +51,7 @@ en:
     contact: "Contact us"
     contact_text: "We are cloud basing service for safety keeping your medical records online."
     address: "Ukraine, Kiev, Academika Krymskogo str., 27А"
-    phone: "+38 044 384 4160 | +38 096 789 8952 | +38 066 755 2899"
+    phone: "+38 096 789 8952 | +38 066 755 2899"
     company_name: "ProaLab LLC."
   blog:
     categories: "Categories"

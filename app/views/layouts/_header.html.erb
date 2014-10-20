@@ -7,7 +7,7 @@
           <li><%= link_to (I18n.t 'menu.for_people'), root_path + "#for_people" %></li>
           <li><%= link_to (I18n.t 'menu.for_doctors'), root_path + "#for_doctors" %></li>
           <!--<li><%= link_to (I18n.t 'menu.for_clinics'), root_path + "#for_clinics" %></li>-->
-          <li><%= link_to (I18n.t 'menu.about_us'), root_path + "#about_us" %></li>
+          <li><%= link_to (I18n.t 'menu.about_us'), root_path + "#contact_us" %></li>
           <li id="fat-menu" class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <% if I18n.locale == :ru %>
@@ -22,7 +22,7 @@
               <li><%= link_to image_tag("ru.png", alt: "RU")+ (" RU"), params.merge({:locale => :ru}) %></li>
             </ul>
           </li>
-          <li><%= link_to ("SaaS"), 'http://saas.teleport-ds.com', :target => "_blank" %></li>
+          <li><%= link_to ("SaaS"), '#', :target => "_blank" %></li>
         </ul>
       </nav>
     </div>
